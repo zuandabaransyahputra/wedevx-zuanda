@@ -71,3 +71,18 @@ http://localhost:3000
 - ✅ Form validation using Zod for strong type inference
 - ✅ Modular file structure with reusable components
 - ✅ Simple, clean, and maintainable codebase
+
+## 🔐 Authentication & Middleware
+
+- I implemented **middleware** to restrict access:
+
+  - Users who are **not logged in cannot access** the `/admin` pages.
+  - Users who are **already logged in cannot access** the `/login` and `/register` pages.
+
+- For mock authentication:
+
+  - I used a simple **constant array** of users **without any additional libraries**.
+  - The get, create, and update data processes are handled via **Next.js API routes**.
+
+- With this setup, although data persistence is not implemented, the entire application flow **mimics a real-world app**. The only limitation is:
+  - On page refresh, data resets to initial state since there is no persistent storage like a database yet.
