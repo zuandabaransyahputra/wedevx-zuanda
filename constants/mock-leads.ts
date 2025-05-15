@@ -1,0 +1,43 @@
+import { Lead } from "@/type/lead";
+
+export const mockLeads: Lead[] = [
+  {
+    id: "1",
+    firstName: "Alice",
+    lastName: "Johnson",
+    email: "alice.johnson@example.com",
+    country: "United State",
+    linkedIn: "https://linkedin.com/in/alicejohnson",
+    visas: ["H1B", "O1"],
+    resumeUrl: "/resumes/alice_johnson.pdf",
+    additionalInfo: "Highly experienced in frontend development and React.",
+    status: "PENDING",
+    created_at: "2025-05-16T10:00:00Z",
+  },
+  {
+    id: "2",
+    firstName: "Bob",
+    lastName: "Smith",
+    email: "bob.smith@example.com",
+    linkedIn: "https://linkedin.com/in/bobsmith",
+    visas: ["J1"],
+    resumeUrl: "/resumes/bob_smith.pdf",
+    additionalInfo: "Looking for visa sponsorship opportunities.",
+    status: "REACHED_OUT",
+    country: "United State",
+    created_at: "2025-05-15T14:30:00Z",
+  },
+  {
+    id: "3",
+    firstName: "Carla",
+    lastName: "Gonzalez",
+    email: "carla.gonzalez@example.com",
+    linkedIn: "https://linkedin.com/in/carlagonzalez",
+    visas: ["F1", "OPT"],
+    resumeUrl: "/resumes/carla_gonzalez.pdf",
+    additionalInfo: "Graduating this year, interested in tech positions.",
+    status: "PENDING",
+    country: "United State",
+    created_at: "2025-05-10T08:15:00Z",
+  },
+];
