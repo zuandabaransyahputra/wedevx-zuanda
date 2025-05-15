@@ -28,9 +28,9 @@ cd wedevx-zuanda
 
 ```bash
 pnpm install
-# atau
+# or
 npm install
-# atau
+# or
 yarn install
 ```
 
@@ -38,9 +38,9 @@ yarn install
 
 ```bash
 pnpm dev
-# atau
+# or
 npm run dev
-# atau
+# or
 yarn dev
 ```
 
