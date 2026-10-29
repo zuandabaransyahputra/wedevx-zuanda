@@ -1,9 +1,9 @@
-# 🛠️ Zuanda Assessmen wedevX
+# 🛠️ Zuanda Assessment wedevX
 
 ## 🔗 Live Demo (Vercel)
 
 - **Live URL**: [https://wedevx-zuanda.vercel.app](https://wedevx-zuanda.vercel.app)
-- **Admin Credentials**:
+- **Demo login** (mock account defined in `constants/user.ts` for reviewers; no real users or data):
   - **Email**: `admin@mail.com`
   - **Password**: `admin1234`
 
