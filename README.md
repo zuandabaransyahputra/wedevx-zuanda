@@ -1,5 +1,14 @@
 # 🛠️ Zuanda Assessment wedevX
 
+Technical assessment for wedevX: a lead intake app for an immigration law firm. Visitors submit a visa assessment form, and staff review and manage the incoming leads in a protected admin dashboard.
+
+**Highlights**
+
+- Public lead form with validation (react-hook-form + zod) and a success page
+- Admin dashboard listing leads in a TanStack Table, with lead status updates through Next.js API routes
+- Login and register with mock authentication, route protection via Next.js middleware
+- Next.js 15 App Router, React 19, shadcn/ui, Zustand
+
 ## 🔗 Live Demo (Vercel)
 
 - **Live URL**: [https://wedevx-zuanda.vercel.app](https://wedevx-zuanda.vercel.app)
